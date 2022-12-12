@@ -6,11 +6,11 @@
     <title>List Product</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   </head>
-  <body class="container">
+  <body>
     
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand bg-danger rounded px-3" href="#">BajuKita</a>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+            <img style="height: 50px;" src="{{asset('images/bajukita.png')}}" alt="">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -24,6 +24,7 @@
         </div>
     </nav>
 
+<div class="container" style="padding-top: 60px;">
     <div class="row">
         <div class="col-lg-4">
             <div class="card">
@@ -49,7 +50,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
             </div>
         </div>
     </div>
-    
+</div>
 
 
 
